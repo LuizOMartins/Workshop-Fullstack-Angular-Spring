@@ -1,0 +1,40 @@
+WorkShop 1: 
+
+Front-end: apresentacao
+Back-end: Servidor/banco de dados / Servidor de Arquivos.
+
+Full-stack: duas partes.
+front+back
+
+Arquiterua Tradicional: 
+- Usa muito o servidor.
+
+Arquiterua Moderna: (SOFEA) - Arquitetura de Front-End Orientados a Serviços
+- Servidor de downloads (arquivos do SPA)
+
+
+Beneficios:
+
+- Interoperabilidade:
+	- Várias interfaces com mesmo back-end
+
+
+- Desacoplamento: 
+	- desacoplamento entre front-end e back-end
+
+- Escalabilidade:
+
+- Equipes Especialistas
+
+- Melhor experiencia do usuário:
+ 	- baixa latência
+ 	- front-end carrega apenas uma vez
+
+ Single-Page Applications:
+ -  carrega apenas uma vez no front.
+ -  aplicacao fica armazenada no navegador
+ -  apenas trafego de dados.
+
+---------------------------------------------------
+
+WorkShop 2:
