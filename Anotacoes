@@ -14,15 +14,16 @@ Arquiterua Moderna: (SOFEA) - Arquitetura de Front-End Orientados a Serviços
 
 
 Beneficios:
-
 - Interoperabilidade:
 	- Várias interfaces com mesmo back-end
-
 
 - Desacoplamento: 
 	- desacoplamento entre front-end e back-end
 
-- Escalabilidade:
+- Escalabilidade: 
+
+Escalabilidade horizontal: adicionar nós a um sistema, exemplo, criar novas instancias da aplicação e ter um balanceamento.
+Escalabilidade Vertical:  adicionar novos recursos a um nó.
 
 - Equipes Especialistas
 
