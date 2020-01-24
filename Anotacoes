@@ -38,4 +38,92 @@ Escalabilidade Vertical:  adicionar novos recursos a um nó.
 
 ---------------------------------------------------
 
-WorkShop 2:
+WorkShop 2: Assuntos abortados: Angular, Spring  e REST.
+
+-> REST:  modelo arquitetural.
+por que REST:
+- seperação de cliente e servidor.
+- escalabilidade
+- independente de linguagem
+
+
+Constraints:
+- Cliente Servidor
+- Stateless (não guarda estado). 
+- Cache
+- Interface Uniforme
+- Sistema em camadas
+- Codigo Sob-demanda
+
+RESTfull: implementação de API com REST.
+
+Protocolo: http://
+Protocolo Requisição resposta.
+
+**composicao da requisicao.
+
+**tabela de Status de requisições.
+
+URI: Unifom Resource Identifier
+- Identifica os recursos.
+
+URI/produtos/{codigo}
+URL: http://compra/produtos/{codigo}
+
+JAMAIS MODELO A API COMO UM VERBO.
+exeplo:
+
+POST /salvarProduto HTTP 1.1
+{
+	"nome":"Celular A50",
+	"preco":1000
+}
+*Nesses exeplo funciona, mas o URI /salvarProduto é errado, o certo seria /produtos, assim
+somente mudando os verbos para interagir com o recurso.
+
+
+Recurso:  abstração sobre um determinado tipo de informação que uma aplicação gerencia.
+Representação: estado de um recurso.
+
+Métodos HTTP:
+GET   (pegar)
+POST (criar)
+PUT  (geralmente usado para atualizar um recurso)
+DELETE (remoção de um recurso)
+
+---------------------------
+
+Spring: um conjunto de projetos.
+
+Spring Framework: projeto que deu origem a todos os outros projetos do Ecosistema Spring.
+
+Spring MVC: framework para criações de projetos WEB.
+
+Injeção de dependências: 
+@Autowired
+- faz a instanciação de dependências.
+
+Spring Security: Projeto para Segurança.
+
+Spring Data JPA: Projeto sobre JPA no Ecossistema Spring.
+
+Angular: Angular 2+ 
+- Criado por dev google.
+- SPA
+- Open Source
+
+Versionamento do Angular:  
+
+SEMVER:
+Semantic Versionning
+1. 1.  2
+Major (breaking change - se uma mudança pode quebrar o codigo) -  Minor(Nova funcionalidade)  - Patch (correção de Bugs).
+
+-> TypeScript
+- linguagem para desenvolvimento em Angular.
+
+Transpilação:  typescript >  java Script.
+
+Biblioteca de Componentes:  conjunto de componentes que já exitem.
+
+-----------------------------------------------------------------------------
