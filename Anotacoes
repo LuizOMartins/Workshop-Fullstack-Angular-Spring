@@ -178,9 +178,6 @@ table>tr>th*3
 ng g s  oportunidade --skip-tests
 ->criar service 
 
-1:30
----------
-
 show databases;
 
 use comercial;
