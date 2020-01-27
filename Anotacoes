@@ -127,3 +127,83 @@ Transpilação:  typescript >  java Script.
 Biblioteca de Componentes:  conjunto de componentes que já exitem.
 
 -----------------------------------------------------------------------------
+
+Workshop 3:
+
+Projeto: Oportunidades.
+
+OportunidadeRepository extends JpaRepository<Oportunidade, Long>{
+-> criar uma instancia em tempo de execucao.
+
+Bean Validation: anotacao no campos da classe model (exemplo 	@NotEmpty) e incluir @Valid no Controlador da requisição.
+
+// implementar put - atualização e exclusão!
+
+
+->  Visual Studio Code > View > Terminal 
+
+ng new comercial-ui
+
+Erro:
+Não pode ser carregado porque a execução de scripts foi desabilitada neste sistema. Para obter mais informações, consulte 
+about_Execution_Policies em https://go.microsoft.com/fwlink/?LinkID=135170.
+Set-ExecutionPolicy RemoteSigned - power sell
+
+
+Angular CLI: ferramenta de linha de comando que ajuda nos projeto Angular.
+
+ng serve
+
+Componente:
+	CSS.
+	HTML.
+	TypeScript.
+
+-> Interpolação Angular:
+
+Two way data binding angular:
+
+ng g c painel-negociacao --skip-tests
+
+-> crair componente painel-negociacao 
+
+http://localhost:4200/
+
+
+Visual Studio code:
+
+table>tr>th*3
+
+
+ng g s  oportunidade --skip-tests
+->criar service 
+
+1:30
+---------
+
+show databases;
+
+use comercial;
+
+show tables;
+
+select * from oportunidade;
+
+---------
+
+instalacao:
+npm install primeng primeicons primeflex @angular/animations --save
+
+------------------------------------------
+npm WARN @angular/common@7.2.16 requires a peer of @angular/core@7.2.16 but none is installed. You must install peer dependencies yourself.
+- ng update --all --force
+ERROR in The Angular Compiler requires TypeScript >=3.4.0 and <3.6.0 but 3.7.5 was found instead.
+npm i --save-dev typescript@3.4.5
+------------------------------------------
+
+
+
+
+
+
+
